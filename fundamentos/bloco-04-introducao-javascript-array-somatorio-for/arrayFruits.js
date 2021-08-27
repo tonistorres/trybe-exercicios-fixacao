@@ -11,4 +11,12 @@ for (let index = 0; index < fruits.length; index += 1) {
     summation += fruits[index];
 
 }
-console.log("Somatório : ", summation);
+
+
+if (summation > 15) {
+    console.log("Somatório : ", summation);
+
+} else {
+    console.log('valor menor que 16');
+}
+
